@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/autho.css" />
+  </head>
+  <body>
+    <!-- HEADER START HERE -->
+    <header>
+      <div class="autho-message-box">
+        <i class="fa-regular fa-bell"></i>
+        <div class="autho-message"></div>
+      </div>
+      <div class="login-signin">
+        <button class="autho-btn" id="login">Login</button>
+        <button class="autho-btn atho-btn-active" id="register">
+          Register
+        </button>
+      </div>
+    </header>
+    <!-- HEADER END HERE -->
+
+    <!-- LOGIN CONATAINER START -->
+    <main class="login-container">
+      <div class="container grid grid-three--cols">
+        <div class="autho-left">
+          <h1 class="heading">
+            Sign In to<br />
+            Recharge Direct
+          </h1>
+          <p class="autho-para">
+            if you don’t an account<br />
+            you can
+            <span><a href="/register">Register here!</a></span>
+          </p>
+        </div>
+
+        <div class="character">
+          <figure>
+            <img src="./assets/Character.png" alt="" />
+          </figure>
+        </div>
+
+        <div class="autho-right">
+          <div class="login-form">
+            <form class="loginForm" id="loginForm">
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email"
+                required
+              />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter Password"
+                required
+              />
+              <p class="recover-password">Recover Password ?<a href="#"></a></p>
+              <!-- <div class="login-btn">Login</div> -->
+              <button type="submit" class="login-btn">Login</button>
+            </form>
+
+            <p class="alt-login-para">Or continue with</p>
+
+            <div class="social-auth">
+              <img
+                class="social-auth-google"
+                src="./assets/social-icon/google.svg"
+                alt=""
+              />
+              <img
+                class="social-auth-apple"
+                src="./assets/social-icon/apple.svg"
+                alt=""
+              />
+              <img
+                class="social-auth-facebook"
+                src="./assets/social-icon/facebook.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- REGISTER CONATAINER END -->
+
+    <!-- SCRIPT -->
+
+    <script
+      src="https://kit.fontawesome.com/b90bc8d1f6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>

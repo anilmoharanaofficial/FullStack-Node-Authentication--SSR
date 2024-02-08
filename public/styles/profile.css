@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --backgrount-color: #f6f6f6;
+  --main-color: #4461f2;
+  --register-btn: #ffffff;
+  --heading-color: #000000;
+  --para-color: #4461f2;
+  --input-color: #eaf0f7;
+  --input-text-color: #4f555a;
+}
+
+body {
+  background-color: var(--backgrount-color);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
