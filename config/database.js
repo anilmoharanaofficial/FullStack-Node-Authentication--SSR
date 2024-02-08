@@ -3,8 +3,7 @@ import mongoose from "mongoose";
 mongoose.set("strictQuery", false);
 
 const MONGO_URI =
-  process.env.MONGO_URI ||
-  "mongodb+srv://anilmoharana:BiX6IVWdcVmM60vc@cluster0.wmbnw45.mongodb.net/DigiKart";
+  process.env.MONGO_URI;
 
 const connectToDB = async () => {
   try {
